@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+body {
+	font-family: 'Zila+Slab', sans-sérif;
+	text-align: center;
+}
+
+h1 {
+	color: blue ;
+font-size: 20px;
+background-color: rgba(51, 168, 255, 1.0);
+text-align: center;
+padding: 24px 48px;
+ border-radius: 5px;
+ box-shadow: 1px 5px 5px 2px;
+}
+
+#Hello {
+	font-size: 26px;
+}
+
+div { 
+width:75vw;
+margin: 24px auto;
+padding: 24px 48px;
+border: 5px;
+box-shadow: 1px 5px 5px 2px;
+border-radius: 7px;
+ }
+
+a.button-blue {
+	padding:  8px 8px;
+	margin:  16px auto;
+	border-radius: 6px;
+	border: solid;
+	border-color: ligntblue;
+	color: darkblue;
+	background-color: lightblue;
+
+}
+
+a.button-blue:hover {
+	background-color: darkblue;
+	color: lightblue;
+}
+
+.img-centered {
+	border-radius:  60%;
+}
+
+#Welcome {
+	font-size: 24px;
+}
+a {
+	text-decoration: none;
+}
+
+
+#introduction-text {
+	margin-bottom:  40px;
+}
+.list-inline li{
+	display:  inline;
+}
+.list-inline {
+	pading:  0px;
+}
+
+#Music {
+	font-size:  24px;
+}
+
+#Litterature {
+	font-size:  24px;
+}
+
+#Followlinks {
+	font-size: 20px;
+}
+
+ul.Logos li {
+	display:  inline;
+	padding-right: 30px;
+	font-size: 30px;
+}
+
+.fa-twitter-square:hover {
+color: lightblue;
+}
+.fa-facebook-square:hover{
+	color: darkblue;
+}
+
+
+
+
+
+
+
