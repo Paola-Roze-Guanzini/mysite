@@ -5,9 +5,9 @@ body {
 }
 
 h1 {
-	color: blue ;
+	color: lightblue;
 font-size: 20px;
-background-color: rgba(51, 168, 255, 1.0);
+background-color: rgba(51, 158, 245, 1.0);
 text-align: center;
 padding: 24px 48px;
  border-radius: 5px;
@@ -16,6 +16,15 @@ padding: 24px 48px;
 
 #Hello {
 	font-size: 26px;
+}
+
+#images-list {
+	list-style: none;
+    padding: 0;
+}
+
+#images-list li {
+	display: inline;
 }
 
 div { 
@@ -69,6 +78,11 @@ a {
 	font-size:  24px;
 }
 
+#music-list {
+	list-style: none;
+    padding: 0;
+}
+
 #Litterature {
 	font-size:  24px;
 }
@@ -84,14 +98,23 @@ ul.Logos li {
 }
 
 .fa-twitter-square:hover {
-color: lightblue;
+color: rgba(51, 233, 255, 1.0);
 }
-.fa-facebook-square:hover{
-	color: darkblue;
+.fa-facebook-square:hover {
+	color: rgba(51, 85, 255, 1.0);
 }
 
+.fa-instagram:hover {
+	background:-webkit-linear-gradient(45deg, #F09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	background-clip:text;
+	-webkit-backround-clip:text;
+	color:white;
+	padding: 1.5px;
+}
 
-
+.text-white {
+	color: white;
+}
 
 
 
